@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22F619F02BC58A3900BA264A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F619EF2BC58A3900BA264A /* AppDelegate.swift */; };
+		22F619F22BC58A3900BA264A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F619F12BC58A3900BA264A /* SceneDelegate.swift */; };
+		22F619F42BC58A3900BA264A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F619F32BC58A3900BA264A /* ViewController.swift */; };
+		22F619F72BC58A3900BA264A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22F619F52BC58A3900BA264A /* Main.storyboard */; };
+		22F619F92BC58A3A00BA264A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22F619F82BC58A3A00BA264A /* Assets.xcassets */; };
+		22F619FC2BC58A3A00BA264A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22F619FA2BC58A3A00BA264A /* LaunchScreen.storyboard */; };
+		22F61A072BC58A3A00BA264A /* Kunkala_PracticeExam02Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F61A062BC58A3A00BA264A /* Kunkala_PracticeExam02Tests.swift */; };
+		22F61A112BC58A3A00BA264A /* Kunkala_PracticeExam02UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F61A102BC58A3A00BA264A /* Kunkala_PracticeExam02UITests.swift */; };
+		22F61A132BC58A3A00BA264A /* Kunkala_PracticeExam02UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F61A122BC58A3A00BA264A /* Kunkala_PracticeExam02UITestsLaunchTests.swift */; };
+		22F61A202BC58CD800BA264A /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F61A1F2BC58CD800BA264A /* ResultViewController.swift */; };
+		2D3B727A2BC7D3890088DD2B /* Kunkala_PracticeExam02 in Resources */ = {isa = PBXBuildFile; fileRef = 2D3B72792BC7D3890088DD2B /* Kunkala_PracticeExam02 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22F61A032BC58A3A00BA264A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22F619E42BC58A3900BA264A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22F619EB2BC58A3900BA264A;
+			remoteInfo = Kunkala_PracticeExam02;
+		};
+		22F61A0D2BC58A3A00BA264A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22F619E42BC58A3900BA264A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22F619EB2BC58A3900BA264A;
+			remoteInfo = Kunkala_PracticeExam02;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22F619EC2BC58A3900BA264A /* Kunkala_PracticeExam02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kunkala_PracticeExam02.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22F619EF2BC58A3900BA264A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22F619F12BC58A3900BA264A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		22F619F32BC58A3900BA264A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22F619F62BC58A3900BA264A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22F619F82BC58A3A00BA264A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22F619FB2BC58A3A00BA264A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22F619FD2BC58A3A00BA264A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22F61A022BC58A3A00BA264A /* Kunkala_PracticeExam02Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kunkala_PracticeExam02Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22F61A062BC58A3A00BA264A /* Kunkala_PracticeExam02Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kunkala_PracticeExam02Tests.swift; sourceTree = "<group>"; };
+		22F61A0C2BC58A3A00BA264A /* Kunkala_PracticeExam02UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kunkala_PracticeExam02UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22F61A102BC58A3A00BA264A /* Kunkala_PracticeExam02UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kunkala_PracticeExam02UITests.swift; sourceTree = "<group>"; };
+		22F61A122BC58A3A00BA264A /* Kunkala_PracticeExam02UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kunkala_PracticeExam02UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		22F61A1F2BC58CD800BA264A /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		2D3B72792BC7D3890088DD2B /* Kunkala_PracticeExam02 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Kunkala_PracticeExam02; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22F619E92BC58A3900BA264A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22F619FF2BC58A3A00BA264A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22F61A092BC58A3A00BA264A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22F619E32BC58A3900BA264A = {
+			isa = PBXGroup;
+			children = (
+				22F619EE2BC58A3900BA264A /* Kunkala_PracticeExam02 */,
+				22F61A052BC58A3A00BA264A /* Kunkala_PracticeExam02Tests */,
+				22F61A0F2BC58A3A00BA264A /* Kunkala_PracticeExam02UITests */,
+				22F619ED2BC58A3900BA264A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22F619ED2BC58A3900BA264A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22F619EC2BC58A3900BA264A /* Kunkala_PracticeExam02.app */,
+				22F61A022BC58A3A00BA264A /* Kunkala_PracticeExam02Tests.xctest */,
+				22F61A0C2BC58A3A00BA264A /* Kunkala_PracticeExam02UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22F619EE2BC58A3900BA264A /* Kunkala_PracticeExam02 */ = {
+			isa = PBXGroup;
+			children = (
+				2D3B72792BC7D3890088DD2B /* Kunkala_PracticeExam02 */,
+				22F619EF2BC58A3900BA264A /* AppDelegate.swift */,
+				22F619F12BC58A3900BA264A /* SceneDelegate.swift */,
+				22F619F32BC58A3900BA264A /* ViewController.swift */,
+				22F619F52BC58A3900BA264A /* Main.storyboard */,
+				22F619F82BC58A3A00BA264A /* Assets.xcassets */,
+				22F619FA2BC58A3A00BA264A /* LaunchScreen.storyboard */,
+				22F619FD2BC58A3A00BA264A /* Info.plist */,
+				22F61A1F2BC58CD800BA264A /* ResultViewController.swift */,
+			);
+			path = Kunkala_PracticeExam02;
+			sourceTree = "<group>";
+		};
+		22F61A052BC58A3A00BA264A /* Kunkala_PracticeExam02Tests */ = {
+			isa = PBXGroup;
+			children = (
+				22F61A062BC58A3A00BA264A /* Kunkala_PracticeExam02Tests.swift */,
+			);
+			path = Kunkala_PracticeExam02Tests;
+			sourceTree = "<group>";
+		};
+		22F61A0F2BC58A3A00BA264A /* Kunkala_PracticeExam02UITests */ = {
+			isa = PBXGroup;
+			children = (
+				22F61A102BC58A3A00BA264A /* Kunkala_PracticeExam02UITests.swift */,
+				22F61A122BC58A3A00BA264A /* Kunkala_PracticeExam02UITestsLaunchTests.swift */,
+			);
+			path = Kunkala_PracticeExam02UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22F619EB2BC58A3900BA264A /* Kunkala_PracticeExam02 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22F61A162BC58A3A00BA264A /* Build configuration list for PBXNativeTarget "Kunkala_PracticeExam02" */;
+			buildPhases = (
+				22F619E82BC58A3900BA264A /* Sources */,
+				22F619E92BC58A3900BA264A /* Frameworks */,
+				22F619EA2BC58A3900BA264A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kunkala_PracticeExam02;
+			productName = Kunkala_PracticeExam02;
+			productReference = 22F619EC2BC58A3900BA264A /* Kunkala_PracticeExam02.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22F61A012BC58A3A00BA264A /* Kunkala_PracticeExam02Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22F61A192BC58A3A00BA264A /* Build configuration list for PBXNativeTarget "Kunkala_PracticeExam02Tests" */;
+			buildPhases = (
+				22F619FE2BC58A3A00BA264A /* Sources */,
+				22F619FF2BC58A3A00BA264A /* Frameworks */,
+				22F61A002BC58A3A00BA264A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22F61A042BC58A3A00BA264A /* PBXTargetDependency */,
+			);
+			name = Kunkala_PracticeExam02Tests;
+			productName = Kunkala_PracticeExam02Tests;
+			productReference = 22F61A022BC58A3A00BA264A /* Kunkala_PracticeExam02Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22F61A0B2BC58A3A00BA264A /* Kunkala_PracticeExam02UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22F61A1C2BC58A3A00BA264A /* Build configuration list for PBXNativeTarget "Kunkala_PracticeExam02UITests" */;
+			buildPhases = (
+				22F61A082BC58A3A00BA264A /* Sources */,
+				22F61A092BC58A3A00BA264A /* Frameworks */,
+				22F61A0A2BC58A3A00BA264A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22F61A0E2BC58A3A00BA264A /* PBXTargetDependency */,
+			);
+			name = Kunkala_PracticeExam02UITests;
+			productName = Kunkala_PracticeExam02UITests;
+			productReference = 22F61A0C2BC58A3A00BA264A /* Kunkala_PracticeExam02UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22F619E42BC58A3900BA264A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					22F619EB2BC58A3900BA264A = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					22F61A012BC58A3A00BA264A = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 22F619EB2BC58A3900BA264A;
+					};
+					22F61A0B2BC58A3A00BA264A = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 22F619EB2BC58A3900BA264A;
+					};
+				};
+			};
+			buildConfigurationList = 22F619E72BC58A3900BA264A /* Build configuration list for PBXProject "ramya_PracticeExam02" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22F619E32BC58A3900BA264A;
+			productRefGroup = 22F619ED2BC58A3900BA264A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22F619EB2BC58A3900BA264A /* Kunkala_PracticeExam02 */,
+				22F61A012BC58A3A00BA264A /* Kunkala_PracticeExam02Tests */,
+				22F61A0B2BC58A3A00BA264A /* Kunkala_PracticeExam02UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22F619EA2BC58A3900BA264A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D3B727A2BC7D3890088DD2B /* Kunkala_PracticeExam02 in Resources */,
+				22F619FC2BC58A3A00BA264A /* LaunchScreen.storyboard in Resources */,
+				22F619F92BC58A3A00BA264A /* Assets.xcassets in Resources */,
+				22F619F72BC58A3900BA264A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22F61A002BC58A3A00BA264A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22F61A0A2BC58A3A00BA264A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22F619E82BC58A3900BA264A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F619F42BC58A3900BA264A /* ViewController.swift in Sources */,
+				22F619F02BC58A3900BA264A /* AppDelegate.swift in Sources */,
+				22F619F22BC58A3900BA264A /* SceneDelegate.swift in Sources */,
+				22F61A202BC58CD800BA264A /* ResultViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22F619FE2BC58A3A00BA264A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F61A072BC58A3A00BA264A /* Kunkala_PracticeExam02Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22F61A082BC58A3A00BA264A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F61A132BC58A3A00BA264A /* Kunkala_PracticeExam02UITestsLaunchTests.swift in Sources */,
+				22F61A112BC58A3A00BA264A /* Kunkala_PracticeExam02UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22F61A042BC58A3A00BA264A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22F619EB2BC58A3900BA264A /* Kunkala_PracticeExam02 */;
+			targetProxy = 22F61A032BC58A3A00BA264A /* PBXContainerItemProxy */;
+		};
+		22F61A0E2BC58A3A00BA264A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22F619EB2BC58A3900BA264A /* Kunkala_PracticeExam02 */;
+			targetProxy = 22F61A0D2BC58A3A00BA264A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22F619F52BC58A3900BA264A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22F619F62BC58A3900BA264A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22F619FA2BC58A3A00BA264A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22F619FB2BC58A3A00BA264A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22F61A142BC58A3A00BA264A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22F61A152BC58A3A00BA264A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22F61A172BC58A3A00BA264A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kunkala_PracticeExam02/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Kunkala_PracticeExam02;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Kunkala-PracticeExam02";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22F61A182BC58A3A00BA264A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kunkala_PracticeExam02/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Kunkala_PracticeExam02;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Kunkala-PracticeExam02";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		22F61A1A2BC58A3A00BA264A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Kunkala-PracticeExam02Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kunkala_PracticeExam02.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kunkala_PracticeExam02";
+			};
+			name = Debug;
+		};
+		22F61A1B2BC58A3A00BA264A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Kunkala-PracticeExam02Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kunkala_PracticeExam02.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kunkala_PracticeExam02";
+			};
+			name = Release;
+		};
+		22F61A1D2BC58A3A00BA264A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Kunkala-PracticeExam02UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kunkala_PracticeExam02;
+			};
+			name = Debug;
+		};
+		22F61A1E2BC58A3A00BA264A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Kunkala-PracticeExam02UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kunkala_PracticeExam02;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22F619E72BC58A3900BA264A /* Build configuration list for PBXProject "ramya_PracticeExam02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22F61A142BC58A3A00BA264A /* Debug */,
+				22F61A152BC58A3A00BA264A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22F61A162BC58A3A00BA264A /* Build configuration list for PBXNativeTarget "Kunkala_PracticeExam02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22F61A172BC58A3A00BA264A /* Debug */,
+				22F61A182BC58A3A00BA264A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22F61A192BC58A3A00BA264A /* Build configuration list for PBXNativeTarget "Kunkala_PracticeExam02Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22F61A1A2BC58A3A00BA264A /* Debug */,
+				22F61A1B2BC58A3A00BA264A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22F61A1C2BC58A3A00BA264A /* Build configuration list for PBXNativeTarget "Kunkala_PracticeExam02UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22F61A1D2BC58A3A00BA264A /* Debug */,
+				22F61A1E2BC58A3A00BA264A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22F619E42BC58A3900BA264A /* Project object */;
+}

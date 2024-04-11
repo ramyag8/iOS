@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98D32C3F29E5A75D000AD336 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D32C3E29E5A75D000AD336 /* AppDelegate.swift */; };
+		98D32C4129E5A75D000AD336 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D32C4029E5A75D000AD336 /* SceneDelegate.swift */; };
+		98D32C4329E5A75D000AD336 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D32C4229E5A75D000AD336 /* ViewController.swift */; };
+		98D32C4629E5A75D000AD336 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98D32C4429E5A75D000AD336 /* Main.storyboard */; };
+		98D32C4829E5A75E000AD336 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98D32C4729E5A75E000AD336 /* Assets.xcassets */; };
+		98D32C4B29E5A75E000AD336 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98D32C4929E5A75E000AD336 /* LaunchScreen.storyboard */; };
+		98D32C5629E5A75F000AD336 /* Duppati_Exam02Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D32C5529E5A75F000AD336 /* Duppati_Exam02Tests.swift */; };
+		98D32C6029E5A75F000AD336 /* Duppati_Exam02UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D32C5F29E5A75F000AD336 /* Duppati_Exam02UITests.swift */; };
+		98D32C6229E5A75F000AD336 /* Duppati_Exam02UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D32C6129E5A75F000AD336 /* Duppati_Exam02UITestsLaunchTests.swift */; };
+		98D32C6F29E5A946000AD336 /* AnimateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D32C6E29E5A946000AD336 /* AnimateViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98D32C5229E5A75F000AD336 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98D32C3329E5A75C000AD336 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98D32C3A29E5A75C000AD336;
+			remoteInfo = Duppati_Exam02;
+		};
+		98D32C5C29E5A75F000AD336 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98D32C3329E5A75C000AD336 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98D32C3A29E5A75C000AD336;
+			remoteInfo = Duppati_Exam02;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		98D32C3B29E5A75D000AD336 /* Duppati_Exam02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Duppati_Exam02.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98D32C3E29E5A75D000AD336 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		98D32C4029E5A75D000AD336 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		98D32C4229E5A75D000AD336 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		98D32C4529E5A75D000AD336 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98D32C4729E5A75E000AD336 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98D32C4A29E5A75E000AD336 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		98D32C4C29E5A75E000AD336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98D32C5129E5A75F000AD336 /* Duppati_Exam02Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Duppati_Exam02Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98D32C5529E5A75F000AD336 /* Duppati_Exam02Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duppati_Exam02Tests.swift; sourceTree = "<group>"; };
+		98D32C5B29E5A75F000AD336 /* Duppati_Exam02UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Duppati_Exam02UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98D32C5F29E5A75F000AD336 /* Duppati_Exam02UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duppati_Exam02UITests.swift; sourceTree = "<group>"; };
+		98D32C6129E5A75F000AD336 /* Duppati_Exam02UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duppati_Exam02UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		98D32C6E29E5A946000AD336 /* AnimateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98D32C3829E5A75C000AD336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D32C4E29E5A75F000AD336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D32C5829E5A75F000AD336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98D32C3229E5A75C000AD336 = {
+			isa = PBXGroup;
+			children = (
+				98D32C3D29E5A75D000AD336 /* Duppati_Exam02 */,
+				98D32C5429E5A75F000AD336 /* Duppati_Exam02Tests */,
+				98D32C5E29E5A75F000AD336 /* Duppati_Exam02UITests */,
+				98D32C3C29E5A75D000AD336 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98D32C3C29E5A75D000AD336 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98D32C3B29E5A75D000AD336 /* Duppati_Exam02.app */,
+				98D32C5129E5A75F000AD336 /* Duppati_Exam02Tests.xctest */,
+				98D32C5B29E5A75F000AD336 /* Duppati_Exam02UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98D32C3D29E5A75D000AD336 /* Duppati_Exam02 */ = {
+			isa = PBXGroup;
+			children = (
+				98D32C3E29E5A75D000AD336 /* AppDelegate.swift */,
+				98D32C4029E5A75D000AD336 /* SceneDelegate.swift */,
+				98D32C4229E5A75D000AD336 /* ViewController.swift */,
+				98D32C4429E5A75D000AD336 /* Main.storyboard */,
+				98D32C6E29E5A946000AD336 /* AnimateViewController.swift */,
+				98D32C4729E5A75E000AD336 /* Assets.xcassets */,
+				98D32C4929E5A75E000AD336 /* LaunchScreen.storyboard */,
+				98D32C4C29E5A75E000AD336 /* Info.plist */,
+			);
+			path = Duppati_Exam02;
+			sourceTree = "<group>";
+		};
+		98D32C5429E5A75F000AD336 /* Duppati_Exam02Tests */ = {
+			isa = PBXGroup;
+			children = (
+				98D32C5529E5A75F000AD336 /* Duppati_Exam02Tests.swift */,
+			);
+			path = Duppati_Exam02Tests;
+			sourceTree = "<group>";
+		};
+		98D32C5E29E5A75F000AD336 /* Duppati_Exam02UITests */ = {
+			isa = PBXGroup;
+			children = (
+				98D32C5F29E5A75F000AD336 /* Duppati_Exam02UITests.swift */,
+				98D32C6129E5A75F000AD336 /* Duppati_Exam02UITestsLaunchTests.swift */,
+			);
+			path = Duppati_Exam02UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98D32C3A29E5A75C000AD336 /* Duppati_Exam02 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98D32C6529E5A75F000AD336 /* Build configuration list for PBXNativeTarget "Duppati_Exam02" */;
+			buildPhases = (
+				98D32C3729E5A75C000AD336 /* Sources */,
+				98D32C3829E5A75C000AD336 /* Frameworks */,
+				98D32C3929E5A75C000AD336 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Duppati_Exam02;
+			productName = Duppati_Exam02;
+			productReference = 98D32C3B29E5A75D000AD336 /* Duppati_Exam02.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98D32C5029E5A75F000AD336 /* Duppati_Exam02Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98D32C6829E5A75F000AD336 /* Build configuration list for PBXNativeTarget "Duppati_Exam02Tests" */;
+			buildPhases = (
+				98D32C4D29E5A75F000AD336 /* Sources */,
+				98D32C4E29E5A75F000AD336 /* Frameworks */,
+				98D32C4F29E5A75F000AD336 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98D32C5329E5A75F000AD336 /* PBXTargetDependency */,
+			);
+			name = Duppati_Exam02Tests;
+			productName = Duppati_Exam02Tests;
+			productReference = 98D32C5129E5A75F000AD336 /* Duppati_Exam02Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		98D32C5A29E5A75F000AD336 /* Duppati_Exam02UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98D32C6B29E5A75F000AD336 /* Build configuration list for PBXNativeTarget "Duppati_Exam02UITests" */;
+			buildPhases = (
+				98D32C5729E5A75F000AD336 /* Sources */,
+				98D32C5829E5A75F000AD336 /* Frameworks */,
+				98D32C5929E5A75F000AD336 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98D32C5D29E5A75F000AD336 /* PBXTargetDependency */,
+			);
+			name = Duppati_Exam02UITests;
+			productName = Duppati_Exam02UITests;
+			productReference = 98D32C5B29E5A75F000AD336 /* Duppati_Exam02UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98D32C3329E5A75C000AD336 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					98D32C3A29E5A75C000AD336 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					98D32C5029E5A75F000AD336 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 98D32C3A29E5A75C000AD336;
+					};
+					98D32C5A29E5A75F000AD336 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 98D32C3A29E5A75C000AD336;
+					};
+				};
+			};
+			buildConfigurationList = 98D32C3629E5A75C000AD336 /* Build configuration list for PBXProject "Duppati_Exam02" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98D32C3229E5A75C000AD336;
+			productRefGroup = 98D32C3C29E5A75D000AD336 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98D32C3A29E5A75C000AD336 /* Duppati_Exam02 */,
+				98D32C5029E5A75F000AD336 /* Duppati_Exam02Tests */,
+				98D32C5A29E5A75F000AD336 /* Duppati_Exam02UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98D32C3929E5A75C000AD336 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D32C4B29E5A75E000AD336 /* LaunchScreen.storyboard in Resources */,
+				98D32C4829E5A75E000AD336 /* Assets.xcassets in Resources */,
+				98D32C4629E5A75D000AD336 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D32C4F29E5A75F000AD336 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D32C5929E5A75F000AD336 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98D32C3729E5A75C000AD336 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D32C6F29E5A946000AD336 /* AnimateViewController.swift in Sources */,
+				98D32C4329E5A75D000AD336 /* ViewController.swift in Sources */,
+				98D32C3F29E5A75D000AD336 /* AppDelegate.swift in Sources */,
+				98D32C4129E5A75D000AD336 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D32C4D29E5A75F000AD336 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D32C5629E5A75F000AD336 /* Duppati_Exam02Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D32C5729E5A75F000AD336 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D32C6029E5A75F000AD336 /* Duppati_Exam02UITests.swift in Sources */,
+				98D32C6229E5A75F000AD336 /* Duppati_Exam02UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98D32C5329E5A75F000AD336 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98D32C3A29E5A75C000AD336 /* Duppati_Exam02 */;
+			targetProxy = 98D32C5229E5A75F000AD336 /* PBXContainerItemProxy */;
+		};
+		98D32C5D29E5A75F000AD336 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98D32C3A29E5A75C000AD336 /* Duppati_Exam02 */;
+			targetProxy = 98D32C5C29E5A75F000AD336 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		98D32C4429E5A75D000AD336 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98D32C4529E5A75D000AD336 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		98D32C4929E5A75E000AD336 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98D32C4A29E5A75E000AD336 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98D32C6329E5A75F000AD336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		98D32C6429E5A75F000AD336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98D32C6629E5A75F000AD336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Duppati_Exam02/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.Duppati-Exam02";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98D32C6729E5A75F000AD336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Duppati_Exam02/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.Duppati-Exam02";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		98D32C6929E5A75F000AD336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.Duppati-Exam02Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Duppati_Exam02.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Duppati_Exam02";
+			};
+			name = Debug;
+		};
+		98D32C6A29E5A75F000AD336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.Duppati-Exam02Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Duppati_Exam02.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Duppati_Exam02";
+			};
+			name = Release;
+		};
+		98D32C6C29E5A75F000AD336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.Duppati-Exam02UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Duppati_Exam02;
+			};
+			name = Debug;
+		};
+		98D32C6D29E5A75F000AD336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.Duppati-Exam02UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Duppati_Exam02;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98D32C3629E5A75C000AD336 /* Build configuration list for PBXProject "Duppati_Exam02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98D32C6329E5A75F000AD336 /* Debug */,
+				98D32C6429E5A75F000AD336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98D32C6529E5A75F000AD336 /* Build configuration list for PBXNativeTarget "Duppati_Exam02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98D32C6629E5A75F000AD336 /* Debug */,
+				98D32C6729E5A75F000AD336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98D32C6829E5A75F000AD336 /* Build configuration list for PBXNativeTarget "Duppati_Exam02Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98D32C6929E5A75F000AD336 /* Debug */,
+				98D32C6A29E5A75F000AD336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98D32C6B29E5A75F000AD336 /* Build configuration list for PBXNativeTarget "Duppati_Exam02UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98D32C6C29E5A75F000AD336 /* Debug */,
+				98D32C6D29E5A75F000AD336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98D32C3329E5A75C000AD336 /* Project object */;
+}
